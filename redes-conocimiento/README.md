@@ -6,9 +6,7 @@
 
 
 ### `npm start`
-<<<<<<< Updated upstream
+
 
 hola
 como estas? 
-=======
->>>>>>> Stashed changes
