@@ -1,0 +1,79 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.profe {
+  margin: 10px;
+  color: white;
+  width: 150px;
+
+  padding: 10px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+img {
+  width: 100px;
+  border-radius: 100px;
+  height: 100px;
+  display: block;
+  border: 4px solid white;
+  box-sizing: border-box;
+}
+
+.profesores {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Sociología {
+  background: #cb3f1f;
+  display: none;
+}
+.Psicología {
+  background: #76295e;
+}
+.Lenguas_Cultura {
+  background: #006f82;
+}
+.Antropología {
+  background: #007461;
+}
+.Historia_Geografía {
+  background: #971005;
+}
+.Ciencia_Política {
+  background: #6d5928;
+}
+.Filosofía {
+  background: #0070a7;
+}
+.Facultad {
+  background: #34388e;
+}
+
+button {
+  color: beige;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  border: none;
+  margin: 5px;
+  padding: 10px;
+}
+
+button:hover {
+  padding: 12px;
+}
+
+h4,
+p {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
